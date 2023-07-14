@@ -1,0 +1,87 @@
+/* This is a CSS stylesheet that styles various elements on the web page */
+
+body {
+  /* The background color of the body is set to a dark blue */
+  background-color: rgb(8, 11, 45);
+  /* The font family is set to Arial or any other sans-serif font */
+  font-family: Arial, sans-serif;
+  /* Margins are set to 0 for the body */
+  margin: 0;
+  /* The text color is set to a light yellow */
+  color: rgb(207, 184, 54);
+}
+
+header {
+  /* The background color of the header is set to black */
+  background-color: black;
+  /* The text color of the header is set to a light yellow */
+  color: rgb(207, 184, 54);
+  /* The display property is set to "flex" to enable the child elements to be aligned horizontally */
+  display: flex;
+  /* The align-items property is set to "center" to center the child elements vertically */
+  align-items: center;
+  /* The justify-content property is set to "space-between" to distribute the child elements evenly across the header */
+  justify-content: space-between;
+  /* Padding is set to 20 pixels for the header */
+  padding: 20px;
+}
+
+header img {
+  /* The height of the image is set to 150 pixels */
+  height: 150px;
+  /* A border is added to the image with a color of light yellow */
+  border: solid rgb(207, 184, 54);
+}
+
+header h1 {
+  /* The margin for the h1 is set to 0 */
+  margin: 0;
+}
+
+header p {
+  /* The margin for the p element is set to 0 */
+  margin: 0;
+}
+
+/* The class .LandingPage is defined for the LandingPage component */
+.LandingPage {
+  /* Padding is set to 20 pixels for the component */
+  padding: 20px;
+  /* The text alignment is set to center for the component */
+  text-align: center;
+}
+
+.LandingPage h2 {
+  /* The bottom margin is set to 20 pixels for the h2 element */
+  margin-bottom: 20px;
+}
+
+/* The class .Product is defined for the Product component */
+.Product {
+  /* The display property is set to "inline-block" to display the component as a block level element that is placed inline with the text */
+  display: inline-block;
+  /* The width of the component is set to 300 pixels */
+  width: 300px;
+  /* The text alignment is set to center for the component */
+  text-align: center;
+  /* The margin is set to 20 pixels for the component */
+  margin: 20px;
+  /* A 1 pixel border is added to the component with a color of light gray and a style of dotted */
+  border: 1px solid #ddd;
+  /* The border radius is set to 5 pixels for the component */
+  border-radius: 5px;
+}
+
+.Product img {
+  /* The height of the image is set to 200 pixels */
+  height: 200px;
+  /* The width of the image is set to 100% of the parent component */
+  width: 100%;
+  /* /* The object-fit property is set to "cover" */
+}
+
+.Product h3 {
+  /* This CSS sets a margin of 10 pixels on the top and bottom of the h3 element 
+     within the 'Product' class. */
+  margin: 10px 0;
+}
